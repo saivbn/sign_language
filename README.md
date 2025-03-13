@@ -31,7 +31,7 @@ with tensorFlow and Keras. The model is trained to classify different sign langu
 
 
 Step 1: Clone the Repository
-git clone https://github.com/saivbn/sign_language.git
+   git clone https://github.com/saivbn/sign_language.git
 cd sign_language
 
 
