@@ -1,8 +1,8 @@
 Sign Language Recognition Using CNN
 
 📚 Project Overview
-This project aims to build a sign Language Recognition System using Convolutional Neural Network (CNN) with 
-tensorFlow and Keras. The model is trained to classify different sign language gestures and predict them accurately
+This project aims to build a sign Language Recognition System using Convolutional Neural Network (CNN)
+with tensorFlow and Keras. The model is trained to classify different sign language gestures and predict them accurately
 
 🛠️ Technologies Used
 1. Python 3.12
@@ -29,39 +29,47 @@ tensorFlow and Keras. The model is trained to classify different sign language g
 
 🖥️ Installation Guide
 
+
 Step 1: Clone the Repository
 git clone https://github.com/saivbn/sign_language.git
 cd sign_language
+
 
 step 2: Install Dependencies
 pip install tensorFloe opencv-python Mediapipe numpy
 
 🚀 Training the Model
 
+
 python sign_language_data/CNN.py
 
 
 📈 Model Training Results
+
 
 1. Training Accuracy:93.51%
 2. Validation Accuracy:91.88%
 
 📤 Saving the Model
 
+
 model.save("sign_language_model.keras")
 
 🧐 Testing the Model
+
 
 import tensorflow as tf
 model = tf.keras.models.load_model("sign_language_model.keras")
 
 ✅ Future Improvements
 
+
 1. Add more sign language datasets.
 2. Implement real-time gesture recognition with openCV
 3. Deploy the model as a web app
 
 📧 Contact
+
 
 GitHub    - saivbn 
 Email     - saik62907@gmail.con
